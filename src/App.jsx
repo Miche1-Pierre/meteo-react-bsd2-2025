@@ -47,7 +47,12 @@ function App() {
             Timezone : {weather.timezone}
           </h3>
           <h3 className="text-xl text-white mb-4">
-            Voici la météo du : {new Date(day).toLocaleDateString()}
+            Voici la météo du : {new Date(day).toLocaleDateString("fr-FR", {
+              weekday: "long",
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}
           </h3>
           <Button previousDate={previous} nextDate={next} />
         </div>
