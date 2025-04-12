@@ -54,4 +54,4 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 ## Auteur
 
-- Pierre (BSD2 2025)
+- Pierre (Evaluation JS - BSD2 2025)
